@@ -1,5 +1,7 @@
 package com.stepdefinition;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 
 import com.pages.Flipkart_Remove_Cart_Page;
@@ -62,11 +64,12 @@ public class Flipkart_Remove_Cart_Steps extends Reusable {
 // Validate the product remove from cart
 
 	@Then("Validate the product remove from cart")
-	public void validate_the_product_remove_from_cart() throws InterruptedException {
+	public void validate_the_product_remove_from_cart() throws InterruptedException, IOException {
 
 		wait_for_Element_Visibility(remove.Emty_Cart());
 
 		Assert.assertEquals(get_value(remove.getEmty_cart()), "Missing Cart items?");
+		take_Screenshot("C:\\Users\\C2TA\\eclipse-workspace\\Flipkart_Demo\\src\\test\\resources\\Screenshot\\Flipkart.png5");
 
 	}
 }

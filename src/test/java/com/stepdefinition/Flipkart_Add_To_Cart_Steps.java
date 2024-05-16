@@ -1,5 +1,7 @@
 package com.stepdefinition;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 
 import com.pages.Flipkart_Add_To_Cart_Page;
@@ -40,12 +42,14 @@ public class Flipkart_Add_To_Cart_Steps extends Reusable {
 	// Validate Place Order
 
 	@Then("Validate Place Order should displayed")
-	public void validate_place_order_should_displayed() throws InterruptedException {
+	public void validate_place_order_should_displayed() throws InterruptedException, IOException {
 		Thread.sleep(2000);
 
 		Assert.assertEquals(get_value(cart.getPlace_Order()), "PLACE ORDER");
 		
 	
+		take_Screenshot("C:\\Users\\C2TA\\eclipse-workspace\\Flipkart_Demo\\src\\test\\resources\\Screenshot\\Flipkart.png1");
+		
 	}
 
 }

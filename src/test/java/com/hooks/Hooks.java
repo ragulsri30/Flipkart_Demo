@@ -1,5 +1,6 @@
 package com.hooks;
 
+import java.io.IOException;
 import java.time.Duration;
 
 
@@ -24,11 +25,6 @@ public class Hooks  extends Reusable{
 	
 	
 	
-	@After
-	public void tear_Down() {
-
-	
-	}
 	
 
 }

@@ -1,5 +1,7 @@
 package com.stepdefinition;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
@@ -50,11 +52,11 @@ public class Flipkart_Product_Search_Steps extends Reusable {
 
 //Validate the Search Product page
 	@Then("Validate the Search Product page")
-	public void validate_the_search_product_page() {
+	public void validate_the_search_product_page() throws IOException {
 
 
 
 		Assert.assertEquals(get_value(fp.getGet_name()), "shirt");
-
+		take_Screenshot("C:\\Users\\C2TA\\eclipse-workspace\\Flipkart_Demo\\src\\test\\resources\\Screenshot\\Flipkart.png4");
 	}
 }

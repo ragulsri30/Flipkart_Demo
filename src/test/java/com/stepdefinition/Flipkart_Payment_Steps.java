@@ -1,5 +1,7 @@
 package com.stepdefinition;
 
+import java.io.IOException;
+
 import com.pages.Flipkart_Payment_Page;
 import com.reusable.Reusable;
 
@@ -91,8 +93,9 @@ public class Flipkart_Payment_Steps extends Reusable {
 
 //Click the save and delivery
 	@When("Click the save and delivery")
-	public void click_the_save_and_delivery() {
+	public void click_the_save_and_delivery() throws IOException {
 		to_Click(pay.getSave_address());
+		take_Screenshot("C:\\Users\\C2TA\\eclipse-workspace\\Flipkart_Demo\\src\\test\\resources\\Screenshot\\Flipkart.png2");
 	}
 
 }

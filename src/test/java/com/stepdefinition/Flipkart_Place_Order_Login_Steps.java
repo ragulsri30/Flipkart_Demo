@@ -1,5 +1,7 @@
 package com.stepdefinition;
 
+import java.io.IOException;
+
 import org.junit.Assert;
 
 import com.pages.Flipkart_Palce_Order_Login_Page;
@@ -47,11 +49,12 @@ public class Flipkart_Place_Order_Login_Steps extends Reusable {
 
 //Validate the OTP text box should display
 	@Then("Validate the OTP text box should display")
-	public void validate_the_otp_text_box_should_display() throws InterruptedException {
+	public void validate_the_otp_text_box_should_display() throws InterruptedException, IOException {
 		
 		Thread.sleep(3000);
 
 		Assert.assertEquals(get_value(login.getEnter_otp()), "Resend?");
+		take_Screenshot("C:\\Users\\C2TA\\eclipse-workspace\\Flipkart_Demo\\src\\test\\resources\\Screenshot\\Flipkart.png3");
 
 	}
 }
