@@ -1,3 +1,4 @@
+@new
 Feature: To Validate the Flipkart Application
 
 @Regrassion
