@@ -1,6 +1,6 @@
-@new
 Feature: To Validate the Flipkart Application
 
+@new
 @Regrassion
   Scenario: To Validate the Flipkart Product Search Page
   
@@ -9,7 +9,7 @@ Feature: To Validate the Flipkart Application
     And  Enter the Search Product Name
     And  Click the Search Icon button
     Then Validate the Search Product page
-    
+@new   
 @Regrassion
   Scenario: To Validate the Flipkart Add To Cart Page
   
