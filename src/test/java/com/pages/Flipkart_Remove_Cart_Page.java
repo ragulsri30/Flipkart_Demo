@@ -19,7 +19,7 @@ public class Flipkart_Remove_Cart_Page extends Reusable{
 	}
 	
 	
-	@FindBy(xpath = "//span[text()='Cart']")
+	@FindBy(linkText = "Cart")
 	WebElement Cart;
 	
 	@FindBy(xpath = "//span[text()='Price details']")
