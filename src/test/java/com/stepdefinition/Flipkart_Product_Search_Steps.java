@@ -2,8 +2,8 @@ package com.stepdefinition;
 
 import java.io.IOException;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 
 import com.pages.Flipkart_Product_Search_Page;
 import com.reusable.Reusable;

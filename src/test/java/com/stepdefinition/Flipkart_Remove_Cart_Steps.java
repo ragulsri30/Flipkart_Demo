@@ -2,7 +2,7 @@ package com.stepdefinition;
 
 import java.io.IOException;
 
-import org.testng.Assert;
+import org.junit.Assert;
 
 import com.pages.Flipkart_Remove_Cart_Page;
 import com.reusable.Reusable;

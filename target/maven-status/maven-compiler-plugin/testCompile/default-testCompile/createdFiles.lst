@@ -1,0 +1,12 @@
+com\stepdefinition\Flipkart_Place_Order_Login_Steps.class
+com\stepdefinition\Flipkart_Add_To_Cart_Steps.class
+com\stepdefinition\Flipkart_Payment_Steps.class
+com\pages\Flipkart_Palce_Order_Login_Page.class
+com\pages\Flipkart_Product_Search_Page.class
+com\pages\Flipkart_Payment_Page.class
+com\hooks\Hooks.class
+com\runners\Filpkart_Runner.class
+com\stepdefinition\Flipkart_Product_Search_Steps.class
+com\pages\Flipkart_Remove_Cart_Page.class
+com\stepdefinition\Flipkart_Remove_Cart_Steps.class
+com\pages\Flipkart_Add_To_Cart_Page.class
